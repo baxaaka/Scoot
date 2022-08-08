@@ -353,9 +353,6 @@ section {
   cursor: pointer;
 }
 
-
-
-
 /* box-5 */
 
 .box-5 {
@@ -509,6 +506,10 @@ footer {
 /* reponsive media screen for mobile */
 
 @media screen and (max-width: 480px) {
+  body{
+    max-width: 480px;
+   overflow-x: hidden;
+  }
   .container {
     width: 480px;
     height: 2958px;
@@ -519,7 +520,7 @@ footer {
     width: 480px;
     height: 64px;
 
-    margin: 0 auto;
+ 
     font-family: "Space Mono", monospace;
   }
 
@@ -752,21 +753,17 @@ footer {
 
   /* box-3 */
   .box-3 {
-
   }
-  .card-2  {
+  .card-2 {
     background-image: url(/img/girl.png);
     background-size: 200px;
     background-repeat: no-repeat;
     position: relative;
     top: 740px;
-   left: 100px;
- 
+    left: 100px;
   }
 
   .card-2 span {
- 
-    
     position: absolute;
     width: 311px;
     height: 64px;
@@ -792,18 +789,17 @@ footer {
     height: 150px;
     right: 1000px;
     top: 250px;
-    
-    font-family: 'Lexend Deca';
+
+    font-family: "Lexend Deca";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     /* or 167% */
-    
+
     text-align: center;
-    
-    color: #939CAA;
-    
+
+    color: #939caa;
   }
 
   .box-3 .btn {
@@ -835,16 +831,9 @@ footer {
     display: none;
   }
 
- 
-
-
   /* box-4 */
 
-  
-
   .box-4 {
-
-
   }
   .card-3 {
     background-image: url(/img/responsive-image/lon.png);
@@ -853,19 +842,14 @@ footer {
     position: relative;
     top: 740px;
     left: 100px;
- 
- 
   }
 
   .card-3 span {
- 
-    
     position: absolute;
     width: 311px;
     height: 64px;
     right: 1400px;
     top: 200px;
-  
 
     font-family: "Space Mono";
     font-style: normal;
@@ -886,18 +870,17 @@ footer {
     height: 150px;
     right: 1400px;
     top: 250px;
-    
-    font-family: 'Lexend Deca';
+
+    font-family: "Lexend Deca";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     /* or 167% */
-    
+
     text-align: center;
-    
-    color: #939CAA;
-    
+
+    color: #939caa;
   }
 
   .box-4 .btn {
@@ -927,226 +910,197 @@ footer {
     background: transparent;
     cursor: pointer;
     display: none;
-
-  }
-  .mz{
- 
   }
 
+  /* box-5 */
 
-/* box-5 */
+  .box-5 {
 
-.box-5 {
+  }
 
+  .card-4 {
+    background-image: url(/img/soqqa.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 1240px;
+    left: 100px;
+  }
 
-}
+  .card-4 span {
+    position: absolute;
+    width: 311px;
+    height: 64px;
+    right: 1400px;
+    top: 200px;
 
-.card-4 {
-  background-image: url(/img/soqqa.png);
-  background-size: 200px;
-  background-repeat: no-repeat;
-  position: relative;
-  top: 1240px;
-  left: 100px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
 
+    text-align: center;
+    letter-spacing: -1.42857px;
 
-}
+    color: #495567;
+  }
 
-.card-4 span {
+  .card-3 p {
+    position: absolute;
+    width: 311px;
+    height: 150px;
+    right: 1400px;
+    top: 250px;
 
-  
-  position: absolute;
-  width: 311px;
-  height: 64px;
-  right: 1400px;
-  top: 200px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
 
+    text-align: center;
 
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
-  /* or 100% */
+    color: #939caa;
+  }
 
-  text-align: center;
-  letter-spacing: -1.42857px;
+  .box-5 .btn {
+    padding: 12px 34px;
+    background: #fcb72b;
+    box-sizing: content-box;
+    border: 3px solid #fcb72b;
+    color: #ffffff;
+    position: absolute;
+    height: 25px;
+    left: 100px;
+    top: 400px;
 
-  color: #495567;
-}
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
 
-.card-3 p {
-  position: absolute;
-  width: 311px;
-  height: 150px;
-  right: 1400px;
-  top: 250px;
-  
-  font-family: 'Lexend Deca';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
-  /* or 167% */
-  
-  text-align: center;
-  
-  color: #939CAA;
-  
-}
+    text-align: center;
 
-.box-5 .btn {
-  padding: 12px 34px;
-  background: #fcb72b;
-  box-sizing: content-box;
-  border: 3px solid #fcb72b;
-  color: #ffffff;
-  position: absolute;
-  height: 25px;
-  left: 100px;
-  top: 400px;
+    color: #ffffff;
+    display: none;
+  }
 
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
+  .box-5 .btn:hover {
+    color: #fcb72b;
+    background: transparent;
+    cursor: pointer;
+    display: none;
+  }
 
-  text-align: center;
+  .box-5 .soqqa {
+    display: none;
+  }
 
-  color: #ffffff;
-  display: none;
-}
+  footer {
+    background-image: url(/img/responsive-image/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 480px;
+    height: 758px;
 
-.box-5 .btn:hover {
-  color: #fcb72b;
-  background: transparent;
-  cursor: pointer;
-  display: none;
+    top: 3500px;
+  }
+  .card-5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+  }
 
-}
+  .box-7 {
+    display: flex;
+    column-gap: 34px;
+    justify-content: center;
+    position: absolute;
+    right: 150px;
+    top: 176px;
+  }
 
-.box-5 .soqqa {
-  display: none;
-}
+  .box-6 span {
+    position: absolute;
+    width: 311px;
+    height: 64px;
+    left: 45px;
+    top: 88px;
 
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
 
+    text-align: center;
+    letter-spacing: -1.42857px;
 
-footer {
-  background-image: url(/img/responsive-image/footer.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: absolute;
-  width: 480px;
-  height: 758px;
-  
+    color: #ffffff;
+  }
 
-  
-  top: 3500px;
-}
-.card-5 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 300px;
-}
+  .foot {
+    width: 480px;
+    height: 438px;
 
-.box-7 {
-  display: flex;
-  column-gap: 34px;
-  justify-content: center;
-  position: absolute;
-  right: 150px;
-  top: 176px;
-}
+    font-family: "Space Mono", monospace;
+    margin-top: 800px;
+    position: absolute;
+    background: #333a44;
+  }
 
-.box-6 span {
-  position: absolute;
-  width: 311px;
-  height: 64px;
-  left: 45px;
-  top: 88px;
-  
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
-  /* or 100% */
-  
-  text-align: center;
-  letter-spacing: -1.42857px;
-  
-  color: #ffffff;
-}
+  .nav__brand-3 {
+    position: absolute;
+    width: 107.82px;
+    height: 28.56px;
+    left: 150px;
+    top: 84px;
+  }
+  .ul__li-3 {
+    position: absolute;
+    height: 25px;
+    right: 240px;
+    text-align: center;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 65px;
+    /* identical to box height, or 167% */
 
-.foot {
- 
+    color: #939caa;
+  }
 
-  width: 480px;
-  height: 438px;
-  
+  .ul__link-3 {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    list-style-type: none;
+  }
+  .ul__li-3 .ul__link-3 a {
+    text-decoration: none;
+    color: #939caa;
+  }
 
-  font-family: "Space Mono", monospace;
-  margin-top: 800px;
-  position: absolute;
-  background: #333a44;
-}
-
-.nav__brand-3 {
-
-  position: absolute;
-  width: 107.82px;
-  height: 28.56px;
-  left: 150px;
-  top: 84px;
-  
-
-
-}
-.ul__li-3 {
-  position: absolute;
-  height: 25px;
-  right: 240px;
-  text-align: center;
-  top: 150px;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 65px;
-  /* identical to box height, or 167% */
-  
-  
-  color: #939CAA;
-  
-}
-
-.ul__link-3 {
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 15px;
-  list-style-type: none;
-}
-.ul__li-3 .ul__link-3 a {
-  text-decoration: none;
-  color: #939caa;
-}
-
-.ul__li-3 .ul__link-3 a:hover {
-  color: #fcb72b;
-}
-.social {
-
-  position: absolute;
-width: 120px;
-height: 24px;
-left: 128px;
-top: 400px;
-  display: flex;
-  column-gap: 34px;
-}
-
-
+  .ul__li-3 .ul__link-3 a:hover {
+    color: #fcb72b;
+  }
+  .social {
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 128px;
+    top: 400px;
+    display: flex;
+    column-gap: 34px;
+  }
 }
